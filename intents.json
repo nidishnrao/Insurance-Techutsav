@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "policy details",
+      "patterns": [
+        "Which policy do you offer?",
+        "What are the policies do you have ?",
+        "How many members are covered under this policy?",
+        "What is policy start date and end date?"
+      ],
+      "responses": [
+        "Insurance Company :Niva Bupa Health Insurance Company Limite;\npolicy start date: -1st Jan 2023,\npolicy end date : 31st dec 2023;\nPolicy type: family floater\nPolicy Sum Insured:Covered with Rs.4,00,000 Sum Insured\nParental Sum Insured  Restriction : Restricted up to Rs.2,00,000.\n In the event of an employee's resignation, the Insurance premium paid by the employee is not refundable.;\nMembers Covered :Employee, Spouse, 2 Children and 2 Parents or 2 In-laws\n ( Parents are covered whoever opted Parental Insurance)"
+      ]
+    },
+    {
+      "tag": "general policy benefits",
+      "patterns": [
+        "what policy benefits do you offer?",
+        "do you offer maternity benefits?",
+        "policy benefits for preexisting diseases?"
+      ],
+      "responses": [
+        "for pre-existing diseases policy benefits are covered from day one and maternity benifits are 50000/- for normal delivery and 60000/- for caesarean delivery;\n and its covered only for first two live births only; room rent eligibility: normal-ICU, semi/private-no limit\n pre-natal and post-natal expenses: Covered including OPD expenses from the date of conception till 60 days \nafter discharge post maternity"
+      ]
+    },
+    {
+      "tag": "employee policy benefits",
+      "patterns": [
+        "what are policy benefits for employee policy?",
+        "How much do you cover for home care treatment?",
+        "Is there LGBT coverage?",
+        "Does the policy provides coverage for dis-abled sibling?",
+        "employee policy benefits for child"
+      ],
+      "responses": [
+        "Wellness baby expenses: Covered within Maternity limit;\n Third & Forth child cover : Covered subject to Twins or Triplets in second delivery;\nHome Care Treatment Cover : Covered Up to Rs 30,000;\n nfertility Treatment Cover: Covered within Maternity limit only;Same Sex or LGBT Coverage : Coverage provided to couple of same sex, married in jurisdiction with legal authority to authorize the marriage. Documents required: legal affidavit.;\nCoverage for Dependent dis-abled sibling:Coverage provided in case of dependency solely on the Employee"
+      ]
+    },
+    
+    {
+      "tag" : "Reimburse paid claims",
+      "patterns":["How to reimburse paid claims?",
+                  "How to repay claims?",
+                  "How to return policy claims?"
+      ],
+      "responses":["Intimate the TPA within 24hrs from the date of admission and submit all documents within 30 days from the date of discharge. \n Please ensure treatment is taken in in Registered Hospital by a Qualified Medical Practitioner with minimum 20 beds and qualified nursing staff. \n Submit original bills and payment receipts with their break ups along with the claim form. \n In case of Accidental injury please submit FIR or MLC. \n Include a cancelled cheque for NEFT transfer directly your account."
+
+      ]
+    }
+  ]
+}
