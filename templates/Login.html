@@ -46,6 +46,11 @@ button:hover {
 img.avatar {
 	width: 40%;
 }
+
+.title-logo{
+width: 40%;
+}
+
 /*set padding to the container*/
 .container {
 	padding: 16px;
@@ -90,7 +95,8 @@ span.psw {
 </style>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insurance portal</title>
+<link rel='icon' href="static/images/logo-favicon.png" type='image/x-icon'>
+<title>Aarogya Raksha</title>
 </head>
 <body>
 	<h2></h2>
@@ -98,7 +104,7 @@ span.psw {
 	<div class="container" style="width: 50%; background-position: center">
 		<form action="{{url_for('home')}}" >
 			<div class="imgcontainer">
-				<img src="static/images/TietoEvry_Logo.png" alt="Avatar" class="avatar" style="background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;">
+				<img class="title-logo" src="static/images/title-logo.png">
 				<br> 
 				<label style="text-align: center; font: normal normal normal 25px/50px Open Sans; letter-spacing: 0px; color: #FFFFFF; opacity: 1;">Healthcare Proposition</label>
 				<div id="space"></div>

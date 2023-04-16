@@ -70,13 +70,252 @@
     
     {
       "tag" : "Reimburse paid claims",
-      "patterns":["How to reimburse paid claims?",
-                  "How to repay claims?",
-                  "How to return policy claims?"
+      "patterns":[
+        "How to reimburse paid claims?",
+        "How to repay claims?",
+        "How to return policy claims?"
       ],
       "responses":["Intimate the TPA within 24hrs from the date of admission and submit all documents within 30 days from the date of discharge. \n Please ensure treatment is taken in in Registered Hospital by a Qualified Medical Practitioner with minimum 20 beds and qualified nursing staff. \n Submit original bills and payment receipts with their break ups along with the claim form. \n In case of Accidental injury please submit FIR or MLC. \n Include a cancelled cheque for NEFT transfer directly your account."
 
       ]
-    }
-  ]
-}
+    }, 
+    {
+      "tag": "cashless hospitalization",
+      "patterns": [
+        "Can I get cashless hospitalization?",
+        "What are the requirements for cashless hospitalization?",
+        "How do I apply for cashless hospitalization?",
+        "Is cashless hospitalization available at all hospitals?"
+      ],
+      "responses": [
+        "Cashless can be provided only by TPA network hospitals. Visit TPA website for a hospital list.",
+        "The approval process takes a maximum of 2-3 hours if all required documents are correct.",
+        "In planned hospitalization, it is advisable to seek approval before 48hrs and 24hrs in case of emergency hospitalization.",
+        "At discharge, the hospital should send the full and final bill to TPA for final settlement. In case of any delay, escalate to the Service provider EDIFY INSURANCE BROKERS SERVICES.",
+        "You need to carry a valid ID proof and a TPA card to present at the help desk."
+      ]
+    },
+    {
+     "tag": "procedures_covered",
+      "patterns": [
+        "What are the different procedures covered under the policy?",
+        "Can I get Uterine Artery Embolization covered under my policy?",
+        "What is covered under Modern Treatment Methods & Other Procedures cover?",
+        "Which procedures are eligible for coverage?"
+          ],
+          "responses": [
+            "The procedures covered under Modern Treatment Methods & Other Procedures cover are Uterine Artery Embolization & HIFU, Balloon Sinuplasty, Deep brain Stimulation (For Parkinson’s), Oral Chemotherapy, Immunotherapy- Monoclonal Antibody to be Given as Injection, Intravitreal Injection, Robotic Surgeries, Stereotactic Radio Surgeries, Bronchial thermoplasty and Stem Cell Implantation, Vaporization of Prostrate (Green Laser Treatment or Holmium Laser Treatment), and Intra Operative Neuro Monitoring.",
+            "Coverage is up to the limits of the standard policy terms and conditions.",
+            "To know if a specific procedure is eligible for coverage, please refer to the policy document or contact our customer service team."
+          ]
+        },
+        {
+          "tag": "coverage_limitations",
+          "patterns": [
+            "What are the limitations of the coverage?",
+            "Are there any exclusions to the coverage?",
+            "Is there a cap on the coverage amount?",
+            "What are the terms and conditions for availing the coverage?"
+          ],
+          "responses": [
+            "The limitations and exclusions of the coverage will be mentioned in the policy document.",
+            "The coverage amount is up to the limits of the standard policy terms and conditions.",
+            "To know the terms and conditions for availing the coverage, please refer to the policy document or contact our customer service team."
+          ]
+        },
+        {
+         "tag": "air ambulance cover",
+          "patterns": [
+             "Does the policy cover air ambulance services?",
+             "What is the coverage for air ambulance in case of emergency?",
+             "How much can I claim for air ambulance services under the policy?"
+                ],
+                "responses": [
+                  "The policy covers air ambulance services in case of emergency medical referrals above 50 km, up to Rs.1,00,000 per incident, and up to Rs.25,000 for intercity referral cases.",
+                  "The air ambulance cover is only available for employees and has a maximum limit of Rs.10 lakhs per year."
+                ]
+              },
+              {
+                "tag": "air ambulance claim",
+                "patterns": [
+                  "How can I claim for air ambulance services under the policy?",
+                  "What documents do I need to submit for claiming air ambulance services?",
+                  "What is the claim process for air ambulance services?"
+                ],
+                "responses": [
+                  "To claim for air ambulance services, you need to provide the necessary documents like medical referral, air ambulance invoice, and any other supporting documents.",
+                  "The claim process may take up to 2-3 weeks for processing, and the claim amount will be reimbursed up to the limits specified in the policy terms and conditions.",
+                  "For any assistance with the claim process, you can contact the insurance provider's customer service or reach out to the service provider - EDIFY INSURANCE BROKERS SERVICES."
+                ]
+              },
+                  {
+                    "tag": "ailment capping",
+                    "patterns": [
+                      "What is the ailment capping for cataract surgery?",
+                      "Is there any limit on the coverage for cataract surgery?",
+                      "How much can I claim for cataract surgery under the policy?"
+                    ],
+                    "responses": [
+                      "The ailment capping for cataract surgery is Rs.30,000 per eye.",
+                      "Any amount exceeding the capping limit will not be covered under the policy.",
+                      "You can claim up to the capping limit for cataract surgery, subject to the terms and conditions of the policy."
+                    ]
+                  },
+                  {
+                    "tag": "ailment capping claim",
+                    "patterns": [
+                      "How can I claim for cataract surgery under the policy?",
+                      "What documents do I need to submit for claiming cataract surgery?",
+                      "What is the claim process for cataract surgery?"
+                    ],
+                    "responses": [
+                      "To claim for cataract surgery, you need to provide the necessary documents like medical bills, prescriptions, and any other supporting documents.",
+                      "The claim process may take up to 2-3 weeks for processing, and the claim amount will be reimbursed up to the capping limit specified in the policy terms and conditions.",
+                      "For any assistance with the claim process, you can contact the insurance provider's customer service or reach out to the service provider - EDIFY INSURANCE BROKERS SERVICES."
+                    ]
+               },
+               {
+                 "tag": "continuity benefit",
+                  "patterns": [
+                  "What is the continuity benefit under the policy?",
+                  "How does the continuity benefit work?",
+                  "Can you explain the continuity benefit coverage?"
+                    ],
+                    "responses": [
+                      "The continuity benefit is covered under the policy.",
+                      "In the event of the policyholder's death, the continuity benefit will provide financial assistance to the nominee or the legal heirs to help them continue with the policy.",
+                      "The continuity benefit coverage may vary based on the policy terms and conditions. Please refer to the policy documents for more information."
+                    ]
+                  },
+                  {
+                    "tag": "widow",
+                    "patterns": [
+                      "Is there any widow / widower cover under the policy?",
+                      "What is the coverage for the widow / widower in case of policyholder's death?",
+                      "Can you explain the widow / widower cover?",
+                      "widow cover insurance"
+                    ],
+                    "responses": [
+                      "Yes, the widow/widower cover is covered under the policy.",
+                      "In the event of the policyholder's death, the widow/widower will receive financial assistance as per the coverage specified in the policy terms and conditions.",
+                      "The widow/widower cover may vary based on the policy terms and conditions. Please refer to the policy documents for more information."
+                    ]
+                  },
+                  {
+                    "tag": "bereavement cover",
+                    "patterns": [
+                      "What is the bereavement cover under the policy?",
+                      "How does the bereavement cover work?",
+                      "Can you explain the bereavement cover coverage?"
+                    ],
+                    "responses": [
+                      "The bereavement cover is covered under the policy.",
+                      "In the event of the policyholder's death, the nominee or the legal heirs will receive financial assistance as per the coverage specified in the policy terms and conditions.",
+                      "The bereavement cover may vary based on the policy terms and conditions. Please refer to the policy documents for more information."
+                    ]
+                  },
+                  {
+                    "tag": "special condition",
+                    "patterns": ["special condition", "robotic surgery", "stem cell", "cyber knife", "hormonal therapy", "50% of SI"],
+                    "responses": ["50% of Sum Insured is covered for Robotic Surgery, Stem Cell, Cyber knife & Hormonal Therapy."]
+                   },
+                   {
+                   "tag": "submission reimbursement claims docs",
+                   "patterns": ["submission reimbursement claims docs", "discharge", "45 days"],
+                   "responses": ["The reimbursement claim documents should be submitted within 45 days from the date of discharge."]
+                   },
+                   {
+                    "tag": "reimburse paid claims",
+                    "patterns": [
+                    "How do I reimburse my paid claims?",
+                    "What is the process for claiming reimbursement?",
+                    "Can you guide me on how to get reimbursement for my paid claims?",
+                    "What are the steps for claiming reimbursement of paid claims?"
+                    ],
+                    "responses": [
+                    "You need to intimate the TPA within 24 hours from the date of admission and submit all documents within 30 days from the date of discharge. \n Please ensure that treatment is taken in a registered hospital by a qualified medical practitioner with a minimum of 20 beds and qualified nursing staff.\n Submit original bills and payment receipts with their breakups along with the claim form.\n In case of accidental injury, please submit FIR or MLC. Also, include a cancelled cheque for NEFT transfer directly to your account."
+                    ]
+                   },
+                   {
+                   "tag": "registered hospital",
+                   "patterns": [
+                   "What is a registered hospital?",
+                   "Can I get my treatment in any hospital?",
+                   "What are the requirements for a hospital to be registered?",
+                   "Is it necessary to get treatment in a registered hospital?"
+                    ],
+                   "responses": [
+                   "For claiming reimbursement, it is necessary to take treatment in a registered hospital by a qualified medical practitioner with a minimum of 20 beds and qualified nursing staff."
+                    ]
+                   },
+                   {
+                    "tag": "documents required",
+                    "patterns": [
+                    "What are the documents required for reimbursement?",
+                    "Which documents do I need to submit for reimbursement?",
+                    "Can you tell me the list of documents required for reimbursement?",
+                    "What is the documentation process for claiming reimbursement?"
+                    ],
+                   "responses": [
+                   "You need to submit all original bills and payment receipts with their breakups along with the claim form. In case of accidental injury, please submit FIR or MLC. Also, include a cancelled cheque for NEFT transfer directly to your account."
+                    ]
+                   },
+                   {
+                   "tag": "request documents",
+                        "patterns": [
+                          "What documents are required for reimbursement of claims?",
+                          "Which documents should I submit with the claim form?",
+                          "Can you tell me the list of documents required for reimbursement?",
+                          "What are the necessary documents for claim reimbursement?",
+                          "I need to know the documents needed for reimbursement of my claim"
+                       ],
+                       "responses": [
+                      
+                          "Please attach the following documents in ORIGINAL with the claim form: \n\n Detailed discharge summary \n In Patient bill providing complete breakup of medicines used, room rents billed, diagnostics etc. \n Cash paid receipt for IP bill for the full amount. \n Original lab / investigation reports taken during in patient treatment. \n FIR or MLC in case of any accidental injury treatment. \n Valid Govt. Id. Proof for both Patient and Employee (ex. PAN Card, Aadhar Card, Passport etc.) \n Personalized cancelled cheque with Printed employee name on the cheque or Bank Statement. \n For pre and post hospitalization bills documents should be submitted as below \n Original prescription and bills to support use of medicines, investigations, consultation etc. \n Original lab / investigations report."
+                        
+                      ]
+                   },
+                  
+                   {
+                   "tag": "request additional documents",
+                   "patterns": [
+                   "Do I need to submit any additional documents?",
+                   "Will I be required to provide any more documents?",
+                   "What if the insurer or TPA asks for additional documents?"
+                    ],
+                   "responses": [
+                          
+                          "The insurer or TPA may ask for additional documents if required."
+                          
+                        ]
+                    },
+                    {
+                     "tag": "request_claim form link",
+                          "patterns": [
+                            "Can you provide me the link to download the claim form?",
+                            "Where can I download the claim form?",
+                            "I need to download the claim form. Can you give me the link?",
+                            "How can I get the claim form to download?"
+                          ]
+                        },
+                        {
+                        "tag": "provide_claim_form_link",
+                        "patterns": [
+                        "Download your claim form by using the link below",
+                        "Here is the link to download the claim form",
+                        "You can download the claim form from the following link"
+                              ],
+                              "responses": [
+                                {
+                                  "text": "You can download the claim form by using the link below: \n\n https://www.medibuddy.in/assets/claimForms/reimbursement-claim-form.pdf"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                        
+                    
+                  
+          
+    
+

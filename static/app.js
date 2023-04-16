@@ -98,3 +98,13 @@ const chatbox = new Chatbox();
 chatbox.display();
 
 
+//Displaying username
+	var url_string = window.location.href;
+	var url = new URL(url_string);
+	var user = url.searchParams.get("userName");
+
+	function loaded() {
+		document.getElementById("name").innerHTML = user;
+	}
+
+

@@ -13,6 +13,10 @@ def login():
 def home():
     return render_template("index.html")
 
+@app.route("/logout")
+def logout():
+    return render_template("Login.html")
+
 @app.post("/predict")
 def predict():
     text = request.get_json().get("message")
